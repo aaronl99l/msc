@@ -13,12 +13,11 @@ return(
 
     }}>
         <div style={{
-            margin: "25%"
+            margin: "25px"
         }}>
             <p className={inter.className} style={{
-                fontSize: "6vw",
+                fontSize: "8vh",
                 color: "red",
-                paddingLeft: "10%",
                 filter: "drop-shadow(1px 1px 0px black)",
                 fontWeight: "bold",
                 width: "100%",
