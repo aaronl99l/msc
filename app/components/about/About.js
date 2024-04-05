@@ -13,16 +13,18 @@ return(
 
     }}>
         <div style={{
-        
+            margin: "25%"
         }}>
             <p className={inter.className} style={{
-                fontSize: "4vw",
+                fontSize: "6vw",
                 color: "red",
                 paddingLeft: "10%",
                 filter: "drop-shadow(1px 1px 0px black)",
-                fontWeight: "bold"
+                fontWeight: "bold",
+                width: "100%",
+                textAlign: "center"
             }}>
-                The   Story   Goes. . .
+                The   Story   Goes
             </p>
         </div>
         <div>
