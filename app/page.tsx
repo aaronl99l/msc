@@ -27,11 +27,11 @@ export default function Home() {
             height: "",
             backgroundColor: ""
           }}>
-            <About/>
+             <Location/>
           </div>
 
           <div >
-            <Location/>
+           <About/>
           </div>
 
           <div>

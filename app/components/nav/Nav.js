@@ -9,8 +9,8 @@ const bangers = Bangers({
 })
 
 function Nav(){
-    function sayStupid(){
-        console.log("Stupid!!! :3");
+    function btnShout(){
+        console.log("Logging button press");
     }
     return(
         <div>
@@ -41,7 +41,7 @@ function Nav(){
                         
                         <div className="flex w-[15%] justify-end">
                             <div className=" px-[10px]">
-                                <button onClick={sayStupid}>
+                                <button onClick={btnShout}>
                                 <Image src="/assets/hamburg_red.png" width={50} height={50} alt="Menu" style={{
                                     maxHeight: "35px",
                                     maxWidth: "35px",
@@ -51,9 +51,9 @@ function Nav(){
                                 </button>
                             </div>
                         </div>
-
+                        
                 </nav>
-
+                <div className="w-[100%]"></div>
             </div>
         </div>
 
