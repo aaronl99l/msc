@@ -30,7 +30,7 @@ return(
             </div>
             <div className="md:flex">    
                 <div className="md:shrink-0">
-                    <Image src="/assets/store_front.jpg" width={200} height={250} alt="Place Holder Image"
+                    <Image src="/assets/store_front.jpg" width={400} height={450} alt="Place Holder Image"
                     className="h-48 w-full object-cover md:h-full md:w-48"/>
                 </div>
                 <div className='flex w-[100%]'>
