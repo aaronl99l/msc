@@ -31,12 +31,12 @@ export default function Home() {
              <Location/>
           </div>
 
-          <div >
-           <About/>
-          </div>
-
           <div>
             <Products/>
+          </div>
+
+          <div >
+           <About/>
           </div>
 
           <footer>

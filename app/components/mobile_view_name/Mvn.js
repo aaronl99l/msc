@@ -9,7 +9,7 @@ const bangers = Bangers({
 function Mvn(){
     return(
         <div className='md:hidden'>
-            <div className='h-[65vh]' style={{
+            <div className='flex-col justify-between ' style={{
 
             }}>
                 <div className='h-[20vh]'>
@@ -21,12 +21,14 @@ function Mvn(){
                         Main Street
                     </p>
                 </div>
-                <div className='h-[20vh] justify-end'>
+                <div className='h-[20vh]' style={{
+                    
+                }}>
                     <p className={bangers.className} style={{
                         color: "red",
                         fontSize: "6vh",
                         filter: "drop-shadow(1px 1px 0px white)",
-                     
+                        
                     }}>
                         Comics, Toys
                     </p>
