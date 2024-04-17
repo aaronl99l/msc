@@ -13,12 +13,12 @@ return(
     <div style={{
 
     }}>
-        <div className="max-w-md mx-auto md:max-w-2xl">
-            <div className="" style={{
+        <div className="max-w-md mx-auto md:max-w-6xl">
+            <div className="justify-center" style={{
                 margin: "25px"
             }}>
                 <p className={inter.className} style={{
-                     fontSize: "8vh",
+                    fontSize: "8vh",
                     color: "red",
                     filter: "drop-shadow(1px 1px 0px black)",
                     fontWeight: "bold",
@@ -28,16 +28,28 @@ return(
                     The   Story   Goes
                 </p>
             </div>
-            <div className="md:flex">    
+            <div className="md:flex mx-[10%]">    
                 <div className="md:shrink-0">
                     <Image src="/assets/store_front.jpg" width={400} height={450} alt="Place Holder Image"
-                    className="h-48 w-full object-cover md:h-full md:w-48"/>
+                    className="h-48 w-[100%] object-cover md:h-full md:w-48" style={{
+                        borderRadius: "5px"
+                    }}/>
                 </div>
                 <div className='flex w-[100%]'>
-                    <p className="px-[15%]" style={{
+                    <p className="mx-[5%]" style={{
                         fontSize: "calc(12px + 1vw)",
                         color: "black",
-                        fontWeight: "bold"
+                        fontWeight: "bold",
+                        borderWidth: "2px",
+                        borderRadius: "1px",
+                        borderRightStyle: "single",
+                        borderBottomStyle: "single",
+                        borderTopStyle: "none",
+                        borderLeftStyle: "none",
+                        borderColor: "black",
+                        padding: "10px",
+                        boxShadow: "5px 5px 10px black"
+                     
                     }}>
                         As a life long lover of comic books, 
                         toys and all things Sci-Fi, horror and genre related, 

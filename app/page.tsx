@@ -5,6 +5,7 @@ import Location from "./components/location/Location.js"
 import Products from "./components/products/Products.js"
 import Contact from "./components/contact/Contact.js"
 import Stock from "./components/stock/Stock.js"
+import Mvn from "./components/mobile_view_name/Mvn.js"
 
 export default function Home() {
   return (
@@ -15,12 +16,12 @@ export default function Home() {
             <Nav/>
           </div>
 
-          <div>
-            <Stock/>
-          </div>
-
           <div className="">
             <Rotator/>
+          </div>
+
+          <div>
+            <Mvn/>
           </div>
 
           <div style={{
@@ -30,12 +31,12 @@ export default function Home() {
              <Location/>
           </div>
 
-          <div >
-           <About/>
-          </div>
-
           <div>
             <Products/>
+          </div>
+
+          <div >
+           <About/>
           </div>
 
           <footer>
