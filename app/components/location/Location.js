@@ -14,8 +14,8 @@ function Location(){
     return(
         <div>
             <div className="md:flex">
-                <div className="md:shrink-0">
-                    <p className= "my-[5%] px-[15%] pt-[0%]" style={{
+                <div className="md:shrink-0 justify-center">
+                    <p className= "flex w-[100%] my-[5%] p-[2%]" style={{
                         fontSize: "calc(15px + 1vw)",
                         color: "white",
                         filter: "drop-shadow(1px 1px 0px black)",
@@ -25,23 +25,25 @@ function Location(){
                         filter: "drop-shadow(3px 3px 5px black)"
                     }}>Come check out our store in person or online!</p>
 
-                    <button className="mx-[50%]" onClick={sayHello} style={{
-                        backgroundColor: "red",
-                        borderRadius: "8px",
-                        height: "10vh",
-                        width: "20vw",
-                        color: "white",
-                        fontWeight: "bold",
-                        filter: "drop-shadow(2px 2px 3px black)"
-                    }}>ONLINE</button>
+                    <div className="flex w-[100%] justify-center">
+                        <button className="mx-auto" onClick={sayHello} style={{
+                            backgroundColor: "red",
+                            borderRadius: "8px",
+                            height: "8vh",
+                            width: "25vh",
+                            color: "white",
+                            fontWeight: "bold",
+                            filter: "drop-shadow(2px 2px 3px black)"
+                        }}>ONLINE</button>
+                    </div>
                 </div>
-                <div className="flex w-[50%]">
+                <div className="flex w-[100%] lg:justify-center">
                    
-                <iframe className="mx-[5%] my-[5%]" width="600" height="400" loading="lazy" allowFullScreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJNY3BydRD54kRS4KB9Dw6ik8&key=AIzaSyCWNzRf3Q9H_mB3LqhskSeAhodJs1Odgqw" style={{
-                    border: "none",
-                    borderRadius: "8px",
-                    
-                }}></iframe> 
+                    <iframe className="my-[5%]" width="600" height="400" loading="lazy" allowFullScreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJNY3BydRD54kRS4KB9Dw6ik8&key=AIzaSyCWNzRf3Q9H_mB3LqhskSeAhodJs1Odgqw" style={{
+                        border: "none",
+                        borderRadius: "8px",
+                        
+                    }}></iframe> 
                 </div>
             </div>
         </div>
