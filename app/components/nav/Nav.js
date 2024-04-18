@@ -16,7 +16,7 @@ function Nav(){
         <div>
             <div className="header flex w-[100%] py-[30px] justify-center">
                 <nav className="w-[100%] fixed top-0" style={{
-                        
+                        boxShadow: "0px 10px 100px black",
                         backgroundColor: "black",
                         zIndex: "99"
                     }}>

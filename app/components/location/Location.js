@@ -12,7 +12,7 @@ function Location(){
         console.log("");
     }
     return(
-        <div>
+        <div className="h-[100vh]">
             <div className="md:flex">
                 <div className="md:shrink-0 justify-center">
                     <p className= "flex w-[100%] my-[5%] p-[2%]" style={{
@@ -44,7 +44,47 @@ function Location(){
                         borderRadius: "8px",
                         
                     }}></iframe> 
-                </div>
+                </div>   
+            </div>
+            <div className="flex w-[100%] justify-center">
+                    <div className="">
+                        <p className="" style={{
+                            color: "black",
+                            fontWeight: "bold",
+                            fontSize: "calc(12px + 0.5vh)"
+                        }}>Monday   -----   -----   9:00am - 6:00pm</p>
+                        <p className="" style={{
+                            color: "black",
+                            fontWeight: "bold",
+                            fontSize: "calc(12px + 0.5vh)"
+                        }}>Tuesday  -----   -----   9:00am - 6pm</p>
+                        <p className="" style={{
+                            color: "black",
+                            fontWeight: "bold",
+                            fontSize: "calc(12px + 0.5vh)"
+                        }}>Wednesday  -----   -----   9:00am - 6pm</p>
+                        <p className="" style={{
+                            color: "black",
+                            fontWeight: "bold",
+                            fontSize: "calc(12px + 0.5vh)"
+                        }}>Thursday  -----   -----   9:00am - 6pm</p>
+                        <p className="" style={{
+                            color: "black",
+                            fontWeight: "bold",
+                            fontSize: "calc(12px + 0.5vh)"
+                        }}>Friday  -----   -----   9:00am - 6pm</p>
+                        <p className="" style={{
+                            color: "black",
+                            fontWeight: "bold",
+                            fontSize: "calc(12px + 0.5vh)"
+                        }}>Saturday  -----   -----   9:00am - 6pm</p>
+                        <p className="" style={{
+                            color: "black",
+                            fontWeight: "bold",
+                            fontSize: "calc(12px + 0.5vh)"
+                        }}>Sunday  -----   -----   9:00am - 6pm</p>
+                        
+                    </div>
             </div>
         </div>
 )}

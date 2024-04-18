@@ -13,8 +13,8 @@ const bangers = Bangers({
 function Rotator(){
     return(
     <div> 
-        <div>
-            <Carousel className="d-block" style={{
+        <div className="h-[30vh] mb-[70px]">
+            <Carousel className="d-block " style={{
                 maxBlockSize: "400px",
             }}>
                 <CarouselItem style={{
