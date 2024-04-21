@@ -11,31 +11,29 @@ function Location(){
     function sayHello(){
         console.log("");
     }
-    /*
-                        <div className="">
-                            <img src="/assets/bg_imgs/horseman-war.jpg" style={{
-                                opacity: "0.6",
-                                zIndex: "1",
-                                width: "100%",
-                                height: "auto"
-                            }}></img>
-                        </div>
-    */
     return(
         <div className="h-[100vh]">
             
                 <div className="md:flex w-[100%] md:gap-4 md:h-[42vh] md:mt-[4%] justify-center">
-                    <div className="md:flex md:w-[38%] md:shrink-0 justify-center md:border-solid md:border-black md:border-[7px] 
-                                    bg-[url('/assets/bg_imgs/horseman-war.jpg')]
-                                    bg-opacity-0">
+                    <div className="position-relative md:flex md:w-[38%] md:shrink-0 justify-center md:border-solid md:border-black md:border-[7px]">
+                        <div className="">
+                            <img src="/assets/bg_imgs/horseman-war.jpg" style={{
+                                opacity: "0.6",
+                                width: "100%",
+                                height: "100%",
+                                position: "absolute",
+                                objectFit: "cover"
+                            }}></img>
+                        </div>
+                        
                         <div className="w-[100%] h-[18vh] md:my-[15%] md:mx-[5%]">
-                            <div className="">
-                                <p className="flex w-[100%]" style={{
+                            <div className="justify-center">
+                                <p className="" style={{
                                     fontSize: "calc(15px + 1vw)",
                                     color: "white",
                                     filter: "drop-shadow(1px 1px 3px black)",
                                     fontWeight: "bold",
-                                    textAlign: "center",
+                                    textAlign: "center"
                                     
                                 }}>Come check out our store in person or online!</p>
                             </div>
@@ -61,7 +59,16 @@ function Location(){
                     </div>  
                 </div>
                     <div className="flex w-[100%] justify-center">
-                        <div className="flex w-[97%] justify-center md:mt-[0.75%] md:border-solid md:border-black md:border-[7px]">
+                        <div className="flex w-[97%] position-relative md:mt-[0.75%] md:border-solid md:border-black md:border-[7px]"> 
+                            <div className="">
+                                <img src="/assets/bg_imgs/warhmr.jpg" style={{
+                                    opacity: "0.6",
+                                    width: "100%",
+                                    height: "100%",
+                                    position: "absolute",
+                                    objectFit: "cover"
+                                }}></img>
+                            </div>
                             <div className="">
                                 <p className="" style={{
                                     color: "black",
