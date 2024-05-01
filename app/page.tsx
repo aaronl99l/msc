@@ -11,7 +11,11 @@ export default function Home() {
   return (
     
 
-      <main>
+      <main style={{
+        backgroundRepeat: "repeat",
+        backgroundImage: "url('/assets/bg_image.png')"
+      }}>
+          
           <div>
             <Nav/>
           </div>
