@@ -13,16 +13,16 @@ const bangers = Bangers({
 function Rotator(){
     return(
     <div> 
-        <div className="xl:mt-[100px] h-[30vh] mb-[100px]">
-            <Carousel className="d-block" style={{
-                maxBlockSize: "400px",
+        <div className="h-[30vh]">
+            <Carousel className=" w-[100%] d-block" style={{
+                maxBlockSize: "500px",
             }}>
                 <CarouselItem style={{
                 }}>
-                    <Image src="/assets/store_front.jpg" width={400} height={300} alt="Store" className="d-block w-100" style={{
+                    <Image src="/assets/store_front.jpg" width={800} height={600} alt="Store" className="d-block w-100" style={{
                         objectFit: "cover",
                         objectPosition: "100% 25%",  
-                        maxBlockSize: "400px" 
+                        maxBlockSize: "500px" 
                     }}/> 
                     <CarouselCaption>
                         <h3 className={bangers.className} style={{
@@ -38,10 +38,10 @@ function Rotator(){
                     </CarouselCaption>  
                 </CarouselItem>
                 <CarouselItem>
-                    <Image src="/assets/kaiju.jpg" width={400} height={300} alt="Kaiju" className="d-block w-100" style={{
+                    <Image src="/assets/kaiju.jpg" width={800} height={600} alt="Kaiju" className="d-block w-100" style={{
                         objectFit: "cover",
                         objectPosition: "100% 25%",  
-                        maxBlockSize: "400px" 
+                        maxBlockSize: "500px" 
                     }}/>
                     <CarouselCaption>
                         <h3 className={bangers.className} style={{
@@ -57,10 +57,10 @@ function Rotator(){
                     </CarouselCaption>
                 </CarouselItem>
                 <CarouselItem>
-                    <Image src="/assets/comics.jpg" width={400} height={300} alt="Comics" className="d-block w-100" style={{
+                    <Image src="/assets/comics.jpg" width={800} height={600} alt="Comics" className="d-block w-100" style={{
                         objectFit: "cover",
                         objectPosition: "100% 25%",  
-                        maxBlockSize: "400px" 
+                        maxBlockSize: "500px" 
                     }}/>
                     <CarouselCaption>
                         <h3 className={bangers.className} style={{

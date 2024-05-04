@@ -28,10 +28,10 @@ function Products(){
                         
                         }}>
                             <div className="flex w-[100%] h-[20vh] justify-center position-relative" style={{
-                                backgroundColor: "white"
+                                backgroundColor: "gray"
                             }}>
                                 <div className="">
-                                    <Image  className="position-absolute opacity-60" src="/assets/mythleg_wide.jpeg" width={250} height={500} alt="placeholder" style={{
+                                    <Image  className="position-absolute opacity-60" src="/assets/mythleg_wide.jpeg" width={2500} height={5000} alt="placeholder" style={{
                                         objectFit: "cover",
                                         height: "100%",
                                         width: "100%"                      
@@ -47,7 +47,7 @@ function Products(){
                                     }}>Mythic Legions</p>
                                     <p className=" md:text-3xl mx-auto" style={{
                                         textAlign: "left",
-                                        color: "black",
+                                        color: "white",
                                         filter: "drop-shadow(2px 2px 1px black)"
                                     }}>Mythic Legions is a breathtaking fantasy world created by the award-winning Four Horsemen Studios. The Mythic Legions action figure line consists of a wide variety of characters ranging from heroic knights, dwarves, and elves to evil orcs, goblins, trolls, and skeleton soldiers.
                                     </p>
@@ -59,10 +59,10 @@ function Products(){
                         
                     }}>
                         <div className="w-[100%] h-[20vh] justify-center position-relative" style={{
-                            backgroundColor: "white"
+                            backgroundColor: "gray"
                         }}>
                             <div className="">
-                                <Image  className="position-absolute opacity-60" src="/assets/bg_imgs/warhmr-2.jpg" width={250} height={500} alt="placeholder" style={{
+                                <Image  className="position-absolute opacity-60" src="/assets/bg_imgs/warhmr-2.jpg" width={2500} height={5000} alt="placeholder" style={{
                                     objectFit: "cover",
                                     height: "100%",
                                     width: "100%"                      
@@ -78,9 +78,9 @@ function Products(){
                                 }}>Warhammer</p>
                                 <p className=" md:text-3xl mx-auto" style={{
                                     textAlign: "left",
-                                    color: "black",
-                                    filter: "drop-shadow(2px 2px 2px white)"
-                                }}>TEMPTEMPTEMPTEMPTEMPTEMPTEMPTEMPTEMP
+                                    color: "white",
+                                    filter: "drop-shadow(2px 2px 2px black)"
+                                }}>Whether you fell gods in the Age of Sigmar or slay vile aliens in 40k, our warhammer inventory is endless. Collect, paint, and battle your way to glory!
                                 </p>
                             </div>
                         </div>
@@ -89,10 +89,10 @@ function Products(){
                             
                     <div className="" style={{}}>
                         <div className="w-[100%] h-[20vh] justify-center position-relative" style={{
-                                backgroundColor: "white"
+                                backgroundColor: "gray"
                         }}>
                             <div className="">
-                                <Image  className="position-absolute opacity-60" src="/assets/comics_wide.jpeg" width={250} height={500} alt="placeholder" style={{
+                                <Image  className="position-absolute opacity-60" src="/assets/comics_wide.jpeg" width={2500} height={5000} alt="placeholder" style={{
                                     objectFit: "cover",
                                     height: "100%",
                                     width: "100%",                    
@@ -108,8 +108,8 @@ function Products(){
                                 }}>Weekly Comics!</p>
                                 <p className=" md:text-3xl mx-auto" style={{
                                     textAlign: "left",
-                                    color: "black",
-                                    filter: "drop-shadow(2px 2px 2px white)"
+                                    color: "white",
+                                    filter: "drop-shadow(2px 2px 2px black)"
                                 }}>Explore our weekly catalogue of comics from Marvel to DC and everything in between. Comics start at $2.99!.
                                 </p>
                             </div>
@@ -121,10 +121,10 @@ function Products(){
                         
                     }}>
                         <div className="w-[100%] h-[20vh] justify-center position-relative" style={{
-                            backgroundColor: "white"
+                            backgroundColor: "gray"
                         }}>
                             <div className="">
-                                <Image  className="position-absolute opacity-60" src="/assets/bg_imgs/gojira.jpg" width={250} height={500} alt="placeholder" style={{
+                                <Image  className="position-absolute opacity-60" src="/assets/bg_imgs/gojira.jpg" width={2500} height={5000} alt="placeholder" style={{
                                     objectFit: "cover",
                                     height: "100%",
                                     width: "100%"                      
@@ -140,9 +140,10 @@ function Products(){
                                 }}>Godzilla & Kaiju</p>
                                 <p className=" md:text-3xl mx-auto" style={{
                                     textAlign: "left",
-                                    color: "black",
-                                    filter: "drop-shadow(2px 2px 2px white)"
+                                    color: "white",
+                                    filter: "drop-shadow(2px 2px 2px black)"
                                 }}>
+                                    Towering monsters, collapsing cityscapes, thermo-nuclear blasts. What's not to love in these Japanese classics! From standard size to oversized figurines, we have it all!
                                 </p>
                             </div>
                         </div>

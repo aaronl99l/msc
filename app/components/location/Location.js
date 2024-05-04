@@ -12,11 +12,12 @@ function Location(){
         console.log("");
     }
     return(
-        <div className="h-[100vh]">
+        <div className="h-[100vh] md:mt-[200px] lg:mt-[200px] 2xl:mt-[200px]">
             
-                <div className="md:flex w-[100%] md:gap-4 md:h-[42vh] md:mt-[4%] justify-center">
-                    <div className="position-relative md:flex md:w-[38%] md:shrink-0 justify-center md:border-solid md:border-black md:border-[7px]" style={{
-                        backgroundColor: "white"
+                <div className="md:flex w-[100%] md:gap-4 md:h-[42vh] justify-center">
+                    <div className="position-relative max-md:h-[30vh] md:flex md:w-[38%] md:shrink-0 justify-center md:border-solid md:border-black md:border-[7px]" style={{
+                        backgroundColor: "gray",
+                        
                     }}>
                         <div className="">
                             <img src="/assets/bg_imgs/horseman-war.jpg" style={{
@@ -28,7 +29,7 @@ function Location(){
                             }}></img>
                         </div>
                         
-                        <div className="w-[100%] h-[18vh] md:my-[15%] md:mx-[5%]">
+                        <div className="w-[100%] h-[18vh] md:my-[15%] md:mx-[5%] justify-center">
                             <div className="justify-center" >
                                 <p className="" style={{
                                     fontSize: "calc(15px + 1vw)",
@@ -62,7 +63,7 @@ function Location(){
                 </div>
                     <div className="flex w-[100%] justify-center">
                         <div className="w-[97%] position-relative md:mt-[0.75%] md:border-solid md:border-black md:border-[7px] justify-center" style={{
-                            backgroundColor: "white"
+                            backgroundColor: "gray"
                         }}> 
                             <div className="">
                                 <img src="/assets/bg_imgs/warhmr.jpg" style={{

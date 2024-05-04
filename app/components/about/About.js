@@ -10,54 +10,45 @@ const bangers = Bangers({
 
 function About(){
 return(
-    <div style={{
+    <div className="h-[100vh] w-[100%]">
+        <div className="md:flex w-[100%] h-[35vh] justify-center">
 
-    }}>
-        <div className="max-w-md mx-auto md:max-w-6xl">
-            <div className="justify-center" style={{
-                margin: "25px"
-            }}>
-                <p className={inter.className} style={{
-                    fontSize: "8vh",
+            <div className="w-[100%] flex md:w-[50%] justify-center">
+                <Image className="w-[75%] md:[50%] h-[100%] justify-center" src="/assets/store_front.jpg" width={600} height={1200} alt="Place Holder Image"
+                style={{
+                    borderRadius: "5px",
+                    objectFit: "cover",
+                    boxShadow: "10px 10px 1px red, -10px -10px 1px purple",
+        
+
+                }}/>
+            </div>
+
+            <div className=" md:w-[50%] mx-[5%]">
+                
+                <p className='' style={{
+                    fontSize: "calc(18px + 4vh)",
                     color: "red",
                     filter: "drop-shadow(1px 1px 0px black)",
-                    fontWeight: "bold",
-                    width: "100%",
-                    textAlign: "center"
+                    fontWeight: "bold",  
                 }}>
                     The   Story   Goes
-                </p>
-            </div>
-            <div className="md:flex mx-[10%]">    
-                <div className="md:shrink-0">
-                    <Image src="/assets/store_front.jpg" width={400} height={450} alt="Place Holder Image"
-                    className="h-48 w-[100%] object-cover md:h-full md:w-48" style={{
-                        borderRadius: "5px"
-                    }}/>
-                </div>
-                <div className='flex w-[100%]'>
-                    <p className="mx-[5%]" style={{
-                        fontSize: "calc(12px + 1vw)",
-                        color: "black",
-                        fontWeight: "bold",
-                        borderWidth: "2px",
-                        borderRadius: "1px",
-                        borderRightStyle: "single",
-                        borderBottomStyle: "single",
-                        borderTopStyle: "none",
-                        borderLeftStyle: "none",
-                        borderColor: "black",
-                        padding: "10px",
-                        boxShadow: "5px 5px 10px black"
-                     
-                    }}>
-                        As a life long lover of comic books, 
-                        toys and all things Sci-Fi, horror and genre related, 
-                        it had always been my dream to someday have a shop 
-                        where I could feature amazing products that could 
-                        spark the excitement inside everyone. This is that shop!
-                    </p>
-                </div>
+                </p>     
+                
+                <p className="" style={{
+                    fontSize: "calc(12px + 2vh)",
+                    color: "white",
+                    fontWeight: "bold",
+                    filter: "drop-shadow(1px 1px 1px black)"
+                }}>
+                            As a life long lover of comic books, 
+                            toys and all things Sci-Fi, horror and genre related, 
+                            it had always been my dream to someday have a shop 
+                            where I could feature amazing products that could 
+                            spark the excitement inside everyone. This is that shop!
+                        </p>
+                  
+                
             </div>
         </div>
     </div>

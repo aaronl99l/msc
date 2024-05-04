@@ -8,7 +8,9 @@ const bangers = Bangers({
 
 function Mvn(){
     return(
-        <div className='md:hidden position-relative'>
+        <div className='md:hidden position-relative' style={{
+            
+        }}>
             <div className='mx-[3%] my-[10%] flex-col justify-between ' style={{
 
             }}>
