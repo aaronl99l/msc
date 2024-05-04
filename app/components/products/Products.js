@@ -11,12 +11,15 @@ function Products(){
     return(
         //Outer container, do not touch
         <div>
-            <div className="h-[100vh] my-[15%] md:my-[0%]">
+            <div className="h-[100vh] my-[200px] md:my-[0%]">
                 <div className="flex w-[100%] justify-center mx-auto my-auto">
                     <p className={bangers.className} style={{
-                        color: "black",
-                        fontSize: "calc(24px + 4vh)",
-
+                        color: "white",
+                        fontSize: "calc(18px + 4vh)",
+                        padding: "10px",
+                        boxShadow: "10px 10px 1px red, -10px -10px 1px purple",
+                        borderRadius: "5px",
+                        backgroundColor: "black"
                         
                     }}>Top Products</p>
                 </div>
