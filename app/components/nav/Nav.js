@@ -16,7 +16,7 @@ function Nav(){
         <div>
             <div className="header flex w-[100%] py-[30px] justify-center">
                 <nav className="w-[100%] fixed top-0" style={{
-                        
+                        boxShadow: "0px 10px 100px black",
                         backgroundColor: "black",
                         zIndex: "99"
                     }}>
@@ -31,10 +31,10 @@ function Nav(){
                         }}>
                             <div className="flex w-[100%] gap-[20px] justify-between">
 
-                                <div className=" justify-start">
-                                    <Image className="my-auto" src="/assets/logo.jpg" width={50} height={50} alt="Business Logo" style={{
-                                        maxHeight: "50px",
-                                        maxWidth: "50px"
+                                <div className=" justify-start my-auto">
+                                    <Image className="" src="/assets/logo.jpg" width={60} height={60} alt="Business Logo" style={{
+                                        maxHeight: "60px",
+                                        maxWidth: "60px"
                                     }}/>
                                 </div>
 
@@ -49,11 +49,11 @@ function Nav(){
                             
                             
                             
-                                <div className=" justify-end">
+                                <div className="justify-end my-auto">
                                     <button onClick={btnShout}>
-                                    <Image src="/assets/hamburg_red.png" width={50} height={50} alt="Menu" style={{
-                                        maxHeight: "50px",
-                                        maxWidth: "50px",
+                                    <Image src="/assets/hamburg_red.png" width={60} height={60} alt="Menu" style={{
+                                        maxHeight: "60px",
+                                        maxWidth: "60px",
                                     }}/>
                                     </button>
                                 </div>

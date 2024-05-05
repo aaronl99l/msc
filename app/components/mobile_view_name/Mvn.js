@@ -8,8 +8,10 @@ const bangers = Bangers({
 
 function Mvn(){
     return(
-        <div className='md:hidden'>
-            <div className='flex-col justify-between ' style={{
+        <div className='md:hidden position-relative' style={{
+            
+        }}>
+            <div className='mx-[3%] my-[10%] flex-col justify-between ' style={{
 
             }}>
                 <div className='h-[20vh]'>
@@ -28,7 +30,7 @@ function Mvn(){
                         color: "red",
                         fontSize: "6vh",
                         filter: "drop-shadow(1px 1px 0px white)",
-                        
+                        textAlign: "right"
                     }}>
                         Comics, Toys
                     </p>
