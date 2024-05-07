@@ -140,7 +140,7 @@ function Products(){
                                     textAlign: "left",
                                     color: "white",
                                     filter: "drop-shadow(2px 2px 2px black)"
-                                }}>Godzilla & Kaiju</p>
+                                }}>Godzilla &lsquo; Kaiju</p>
                                 <p className=" md:text-3xl mx-auto" style={{
                                     textAlign: "left",
                                     color: "white",
