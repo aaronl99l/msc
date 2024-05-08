@@ -26,23 +26,32 @@ export default function Contact(){
 
         let isValidForm = handleValidation();
 
-        const res = await fetch("/api/sendgrid", {
-            body: JSON.stringify({
-                email: email,
-                fullname: fullname,
-                subject: subject,
-                message: message,
-            }),
-            headers: {
-                "Content-Type": "application/json", 
-            },
-            method: "POST",
-        });
+        if (isValidForm) {
+            setButtonText("Sending");
+            const res = await fetch("/api/sendgrid", {
+                body: JSON.stringify({
+                    email: email,
+                    fullname: fullname,
+                    subject: subject,
+                    message: message,
+                }),
+                headers: {
+                    "Content-Type": "application/json", 
+                },
+                method: "POST",
+            });
 
-        const { error } = await res.json();
-        if (error) {
-            console.log(error);
-            return;
+            const { error } = await res.json();
+            if (error) {
+                console.log(error);
+                setShowSuccessMessage(false);
+                setShowFailureMessage(true);
+                setButtonText("Send");
+                return;
+            }
+            setShowSuccessMessage(true);
+            setShowFailureMessage(false);
+            setButtonText("Send");
         }
         console.log(fullname, email, subject, message);
     };
