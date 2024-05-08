@@ -113,7 +113,7 @@ function Products(){
                                     textAlign: "left",
                                     color: "white",
                                     filter: "drop-shadow(2px 2px 2px black)"
-                                }}>Explore our weekly catalogue of comics from Marvel to DC and everything in between. Comics start at $2.99!.
+                                }}>Explore our weekly catalogue of comics from Marvel to DC and everything in between. Comics start at $2.99!
                                 </p>
                             </div>
                         </div>
@@ -146,7 +146,7 @@ function Products(){
                                     color: "white",
                                     filter: "drop-shadow(2px 2px 2px black)"
                                 }}>
-                                    Towering monsters, collapsing cityscapes, thermo-nuclear blasts. What's not to love in these Japanese classics! From standard size to oversized figurines, we have it all!
+                                    Towering monsters, collapsing cityscapes, thermo-nuclear blasts. What&apos;s not to love in these Japanese classics? From standard size to oversized figurines, we have it all!
                                 </p>
                             </div>
                         </div>

@@ -4,7 +4,7 @@ import About from "./components/about/About.js"
 import Location from "./components/location/Location.js"
 import Products from "./components/products/Products.js"
 import Contact from "./components/contact/Contact.js"
-import Stock from "./components/stock/Stock.js"
+import Photos from "./components/photos/Photos.js"
 import Mvn from "./components/mobile_view_name/Mvn.js"
 
 export default function Home() {
@@ -43,7 +43,14 @@ export default function Home() {
            <About/>
           </div>
 
-          <footer>
+          <div>
+            <Photos/>
+          </div>
+
+
+          <footer style={{
+            backgroundColor: "black"
+          }}>
             <Contact/>
           </footer>
       </main>
