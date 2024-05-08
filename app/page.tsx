@@ -47,7 +47,10 @@ export default function Home() {
             <Photos/>
           </div>
 
-          <footer>
+
+          <footer style={{
+            backgroundColor: "black"
+          }}>
             <Contact/>
           </footer>
       </main>
