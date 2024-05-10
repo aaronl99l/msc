@@ -51,7 +51,11 @@ export default function Home() {
           <footer style={{
             backgroundColor: "black"
           }}>
-            <Contact/>
+            <div className="">
+              <div className=" md:w-[50%]">
+                <Contact/>
+              </div>
+            </div>
           </footer>
       </main>
   );

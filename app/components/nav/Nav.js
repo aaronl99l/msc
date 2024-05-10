@@ -14,13 +14,13 @@ function Nav(){
     }
     return(
         <div>
-            <div className="header flex w-[100%] py-[30px] justify-center">
+            <div className="header flex w-[100%] py-[24px] lg:py-[50px] justify-center">
                 <nav className="w-[100%] fixed top-0" style={{
                         boxShadow: "0px 10px 100px black",
                         backgroundColor: "black",
                         zIndex: "99"
                     }}>
-                        <div className='flex w-[100%] md:w-[50%] md:mx-[25%] my-[1%] justify-center' style={{
+                        <div className='flex w-[100%] md:w-[50%] md:mx-[25%] justify-center' style={{
                             borderBottomStyle: "single",
                             borderTopStyle: "none",
                             borderLeftStyle: "none",
@@ -32,17 +32,16 @@ function Nav(){
                             <div className="flex w-[100%] gap-[20px] justify-between">
 
                                 <div className=" justify-start my-auto">
-                                    <Image className="" src="/assets/logo.jpg" width={60} height={60} alt="Business Logo" style={{
-                                        maxHeight: "60px",
-                                        maxWidth: "60px"
+                                    <Image className="" src="/assets/logo.jpg" width={40} height={40} alt="Business Logo" style={{
+                                        maxHeight: "40px",
+                                        maxWidth: "40px"
                                     }}/>
                                 </div>
 
-                                <div className="justify-center my-auto hidden lg:block">
+                                <div className="justify-center pt-[20px] hidden md:block md:text-2xl lg:text-4xl">
                                     <p className={bangers.className} style=
                                     {{
-                                        color: "red", 
-                                        fontSize: "calc(8px + 2vw)",
+                                        color: "red",
                                         filter: "drop-shadow(1px 1px 0px white)"
                                     }}>Main Street Comics Toys & More</p>
                                 </div>
@@ -51,7 +50,7 @@ function Nav(){
                             
                                 <div className="justify-end my-auto">
                                     <button onClick={btnShout}>
-                                    <Image src="/assets/hamburg_red.png" width={60} height={60} alt="Menu" style={{
+                                    <Image src="/assets/hamburg_red.png" width={40} height={40} alt="Menu" style={{
                                         maxHeight: "60px",
                                         maxWidth: "60px",
                                     }}/>

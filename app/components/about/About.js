@@ -27,7 +27,7 @@ return(
             <div className=" md:w-[50%] mx-[5%]">
                 
                 <p className='' style={{
-                    fontSize: "calc(18px + 4vh)",
+                    fontSize: "calc(15px + 4vh)",
                     color: "red",
                     filter: "drop-shadow(1px 1px 0px black)",
                     fontWeight: "bold",  
@@ -36,7 +36,7 @@ return(
                 </p>     
                 
                 <p className="" style={{
-                    fontSize: "calc(12px + 2vh)",
+                    fontSize: "calc(12px + 1vh)",
                     color: "white",
                     fontWeight: "bold",
                     filter: "drop-shadow(1px 1px 1px black)"

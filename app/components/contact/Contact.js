@@ -91,7 +91,7 @@ export default function Contact(){
             className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-black dark:bg-black-500">
                 
                 <h1 className="text-2xl font-bold dark:text-gray-50">
-                    Send a message
+                    Contact
                 </h1>
 
                 <label
@@ -106,7 +106,7 @@ export default function Contact(){
                     setFullname(e.target.value);
                     }}
                     name="fullname"
-                    className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"/>
+                    className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-500 font-light text-gray-500"/>
                 
 
                 <label
@@ -121,7 +121,7 @@ export default function Contact(){
                     onChange={(e) => {
                     setEmail(e.target.value);
                     }}
-                    className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"/>
+                    className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-500 font-light text-gray-500"/>
                 
 
                 <label
@@ -136,7 +136,7 @@ export default function Contact(){
                     onChange={(e) => {
                     setSubject(e.target.value);
                     }}
-                    className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"/>
+                    className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-500 font-light text-gray-500"/>
                 
                 <label
                     htmlFor="message"
@@ -149,7 +149,7 @@ export default function Contact(){
                     onChange={(e) => {
                     setMessage(e.target.value);
                     }}
-                    className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"></textarea>
+                    className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-500 font-light text-gray-500"></textarea>
                 
                 <div className="flex flex-row items-center justify-start">
                     <button

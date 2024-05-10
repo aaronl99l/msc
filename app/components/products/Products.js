@@ -11,7 +11,7 @@ function Products(){
     return(
         //Outer container, do not touch
         <div>
-            <div className="h-[100vh] my-[200px] md:my-[0%]">
+            <div className="h-[100vh] mt-[300px] md:my-[0%]">
                 <div className="flex w-[100%] justify-center mx-auto my-auto">
                     <p className={bangers.className} style={{
                         color: "white",
@@ -48,7 +48,7 @@ function Products(){
                                         color: "white",
                                         filter: "drop-shadow(2px 2px 5px black)"
                                     }}>Mythic Legions</p>
-                                    <p className=" md:text-3xl mx-auto" style={{
+                                    <p className=" md:text-xl mx-auto" style={{
                                         textAlign: "left",
                                         color: "white",
                                         filter: "drop-shadow(2px 2px 1px black)"
@@ -79,7 +79,7 @@ function Products(){
                                     color: "white",
                                     filter: "drop-shadow(2px 2px 2px black)"
                                 }}>Warhammer</p>
-                                <p className=" md:text-3xl mx-auto" style={{
+                                <p className=" md:text-xl mx-auto" style={{
                                     textAlign: "left",
                                     color: "white",
                                     filter: "drop-shadow(2px 2px 2px black)"
@@ -109,7 +109,7 @@ function Products(){
                                     color: "white",
                                     filter: "drop-shadow(2px 2px 2px black)"
                                 }}>Weekly Comics!</p>
-                                <p className=" md:text-3xl mx-auto" style={{
+                                <p className=" md:text-xl mx-auto" style={{
                                     textAlign: "left",
                                     color: "white",
                                     filter: "drop-shadow(2px 2px 2px black)"
@@ -141,7 +141,7 @@ function Products(){
                                     color: "white",
                                     filter: "drop-shadow(2px 2px 2px black)"
                                 }}>Godzilla & Kaiju</p>
-                                <p className=" md:text-3xl mx-auto" style={{
+                                <p className=" md:text-xl mx-auto" style={{
                                     textAlign: "left",
                                     color: "white",
                                     filter: "drop-shadow(2px 2px 2px black)"

@@ -15,14 +15,14 @@ function Rotator(){
     <div> 
         <div className="h-[30vh]">
             <Carousel className=" w-[100%] d-block" style={{
-                maxBlockSize: "500px",
+                maxBlockSize: "400px",
             }}>
                 <CarouselItem style={{
                 }}>
                     <Image src="/assets/store_front.jpg" width={800} height={600} alt="Store" className="d-block w-100" style={{
                         objectFit: "cover",
                         objectPosition: "100% 25%",  
-                        maxBlockSize: "500px" 
+                        maxBlockSize: "400px" 
                     }}/> 
                     <CarouselCaption>
                         <h3 className={bangers.className} style={{
@@ -41,7 +41,7 @@ function Rotator(){
                     <Image src="/assets/kaiju.jpg" width={800} height={600} alt="Kaiju" className="d-block w-100" style={{
                         objectFit: "cover",
                         objectPosition: "100% 25%",  
-                        maxBlockSize: "500px" 
+                        maxBlockSize: "400px" 
                     }}/>
                     <CarouselCaption>
                         <h3 className={bangers.className} style={{
@@ -60,7 +60,7 @@ function Rotator(){
                     <Image src="/assets/comics.jpg" width={800} height={600} alt="Comics" className="d-block w-100" style={{
                         objectFit: "cover",
                         objectPosition: "100% 25%",  
-                        maxBlockSize: "500px" 
+                        maxBlockSize: "400px" 
                     }}/>
                     <CarouselCaption>
                         <h3 className={bangers.className} style={{

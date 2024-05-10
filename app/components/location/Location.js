@@ -79,43 +79,43 @@ function Location(){
                             textAlign: "center"
                             }}>
                             <p className="" style={{
-                                fontSize: "calc(15px + 1vw)",
+                                fontSize: "calc(10px + 1vw)",
                                 color: "white",
                                 filter: "drop-shadow(2px 2px 5px black)",
                                 fontWeight: "bold",
                             }}>Monday   -----   -----   9:00am - 6:00pm</p>
                             <p className="" style={{
-                                fontSize: "calc(15px + 1vw)",
+                                fontSize: "calc(10px + 1vw)",
                                 color: "white",
                                 filter: "drop-shadow(2px 2px 5px black)",
                                 fontWeight: "bold",
                             }}>Tuesday  -----   -----   9:00am - 6pm</p>
                             <p className="" style={{
-                                fontSize: "calc(15px + 1vw)",
+                                fontSize: "calc(10px + 1vw)",
                                 color: "white",
                                 filter: "drop-shadow(2px 2px 5px black)",
                                 fontWeight: "bold",
                             }}>Wednesday  -----   -----   9:00am - 6pm</p>
                             <p className="" style={{
-                                fontSize: "calc(15px + 1vw)",
+                                fontSize: "calc(10px + 1vw)",
                                 color: "white",
                                 filter: "drop-shadow(2px 2px 5px black)",
                                 fontWeight: "bold",
                             }}>Thursday  -----   -----   9:00am - 6pm</p>
                             <p className="" style={{
-                                fontSize: "calc(15px + 1vw)",
+                                fontSize: "calc(10px + 1vw)",
                                 color: "white",
                                 filter: "drop-shadow(2px 2px 5px black)",
                                 fontWeight: "bold",
                             }}>Friday  -----   -----   9:00am - 6pm</p>
                             <p className="" style={{
-                                fontSize: "calc(15px + 1vw)",
+                                fontSize: "calc(10px + 1vw)",
                                 color: "white",
                                 filter: "drop-shadow(2px 2px 5px black)",
                                 fontWeight: "bold",
                             }}>Saturday  -----   -----   9:00am - 6pm</p>
                             <p className="" style={{
-                                fontSize: "calc(15px + 1vw)",
+                                fontSize: "calc(10px + 1vw)",
                                 color: "white",
                                 filter: "drop-shadow(2px 2px 5px black)",
                                 fontWeight: "bold",
