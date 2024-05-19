@@ -3,7 +3,7 @@ import Rotator from './components/rotator/Rotator.js'
 import About from "./components/about/About.js"
 import Location from "./components/location/Location.js"
 import Products from "./components/products/Products.js"
-import Contact from "./components/contact/Contact.js"
+import Contact from './components/contact/Contact';
 import Photos from "./components/photos/Photos.js"
 import Mvn from "./components/mobile_view_name/Mvn.js"
 
